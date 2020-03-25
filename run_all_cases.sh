@@ -29,6 +29,7 @@ check_xpand_instances ()
   fi
 }
 
+# while loop
 while IFS= read -r line; do
   date
   date >> /tmp/all_Case/test.log
